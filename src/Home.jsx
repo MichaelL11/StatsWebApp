@@ -37,7 +37,7 @@ function Home() {
 
             {/* Text Content */}
             <Box sx={{ flex: 1, textAlign: 'center' }}>
-                <h2>Poki Sucks</h2>
+                <h2></h2>
             </Box>
         </Box>
     );

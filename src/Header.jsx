@@ -44,10 +44,12 @@ function Header() {
                 </Box>
 
                 {/* Button Box */}
-                <Box sx={{ mr: '50%' }}>
+                <Box sx={{display: 'flex',  // Make sure buttons are inside a flex container
+                    gap: '10px',      // Add spacing between buttons
+                    mr: '50%' }}>
                     <Button
                         component={Link}
-                        to="/another"
+                        to="/leader"
                         variant="contained"
                         color="primary"
                         sx={{
@@ -60,7 +62,38 @@ function Header() {
                     >
                         Team Standings
                     </Button>
+                    <Button
+                        component={Link}
+                        to="/schedule"
+                        variant="contained"
+                        color="primary"
+                        sx={{
+                            outline: 'none', // Remove focus outline
+                            border: 'none', // Remove border
+                            backgroundColor: '#f20089',
+                            color: 'black',
+                            fontFamily: 'Comic Sans MS, cursive, sans-serif',
+                        }}
+                    >
+                        Schedule
+                    </Button>
+                    <Button
+                        component={Link}
+                        to="/pokemon"
+                        variant="contained"
+                        color="primary"
+                        sx={{
+                            outline: 'none', // Remove focus outline
+                            border: 'none', // Remove border
+                            backgroundColor: '#f20089',
+                            color: 'black',
+                            fontFamily: 'Comic Sans MS, cursive, sans-serif',
+                        }}
+                    >
+                        Stat Leaders
+                    </Button>
                 </Box>
+
             </Box>
         </header>
     );
