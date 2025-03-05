@@ -1,44 +1,69 @@
 import React from 'react';
-import { Box } from '@mui/material';
+import { Box, Button } from '@mui/material';
 import myImage from './assets/PbaLogo.png';
+import { Link } from 'react-router-dom';
 
 function Header() {
-
-
-//HeaderMainButton text="pls work"/>
-
-    return <header>
-        <Box
-            display="flex"
-            justifyContent="space-between" // One box on the left, one on the right
-            alignItems="center"
-            height="80px"
-            width="100%"
-            padding="0 20px"
-            sx={{ backgroundColor: '#282c34', color: 'white' }}
-        >
-            {/* Left Box with Background Image */}
+    return (
+        <header>
             <Box
-                sx={{
-                    backgroundImage: `url(${myImage})`,  // Use the imported image for the background
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                }}
-                height="220%"  // Match the header height
-                width="10%"
-            ></Box>
-
-            {/* Right Box - Now centered correctly */}
-            <Box
-                display="flex"  // Required for centering content inside
-                justifyContent="flex-start"
+                display="flex"
+                justifyContent="space-between"
                 alignItems="center"
-                height="100%" // Match header height
-                flex="1" // Allows it to take up available space
+                height="120px" // Header height
+                width="100%"
+                padding="0 20px"
+                sx={{ backgroundColor: '#6a00f4', color: 'white' }}
             >
-                <h2>Welcome to the PBA</h2>
-            </Box>
-        </Box>
-    </header>
+                {/* Left Box with Background Image */}
+                <Box
+                    component={Link}
+                    to="/"
+                    sx={{
+                        display: 'block',
+                        width: '10%', // Set the width of the logo box
+                        height: '100%', // Ensure it fills the full height of the header
+                        backgroundImage: `url(${myImage})`, // Background image
+                        backgroundSize: 'contain', // Make the image fit without cropping
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat', // Prevent repetition of the image
+                        cursor: 'pointer',
+                        backgroundColor: '#6a00f4', // Set the background color to match the header
+                    }}
+                />
 
-} export default Header
+                {/* Right Box - Now centered correctly */}
+                <Box
+                    display="flex"
+                    justifyContent="flex-start"
+                    alignItems="center"
+                    height="100%" // Full height of the header
+                    flex="1"
+                >
+                    <h2>Welcome to the PBA</h2>
+                </Box>
+
+                {/* Button Box */}
+                <Box sx={{ mr: '50%' }}>
+                    <Button
+                        component={Link}
+                        to="/another"
+                        variant="contained"
+                        color="primary"
+                        sx={{
+                            outline: 'none', // Remove focus outline
+                            border: 'none', // Remove border
+                            backgroundColor: '#f20089',
+                            color: 'black',
+                            fontFamily: 'Comic Sans MS, cursive, sans-serif',
+                        }}
+                    >
+                        Team Standings
+                    </Button>
+                </Box>
+            </Box>
+        </header>
+    );
+}
+
+export default Header;
