@@ -1,32 +1,43 @@
 import React from 'react';
-import { Box, Button } from '@mui/material';
+import { Box } from '@mui/material';
 import myImage from './assets/PbaLogo2.png';
-import { Link } from "react-router-dom";
 
 function Home() {
     return (
         <Box
             display="flex"
-            justifyContent="space-between"
+            justifyContent="center"
             alignItems="center"
-            height="100%" // Header height
             width="100%"
-            padding="0 20px"
+            sx={{
+                height: '100vh',  // Full viewport height
+                padding: '0 5%',
+            //backgroundColor: 'lightgray',} // Debugging color
+            }}
         >
+            {/* Image container */}
             <Box
                 sx={{
-                    display: 'block',
-                    width: '100%', // Set the width of the logo box
-                    height: '100%', // Ensure it fills the full height of the header
-                    backgroundImage: `url(${myImage})`, // Background image
-                    backgroundSize: 'contain',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat', // Prevent repetition of the image
+                    width: '60%', // Adjust the width as needed
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
                 }}
-            />
-            {/* Content of the homepage */}
-            <Box>
-                Poki Sucks
+            >
+                <img
+                    src={myImage}
+                    alt="Logo"
+                    style={{
+                        width: '100%', // Make it responsive to parent container
+                        height: 'auto', // Maintain aspect ratio
+                        maxHeight: '80vh', // Ensure it doesn't get too tall
+                    }}
+                />
+            </Box>
+
+            {/* Text Content */}
+            <Box sx={{ flex: 1, textAlign: 'center' }}>
+                <h2>Poki Sucks</h2>
             </Box>
         </Box>
     );
