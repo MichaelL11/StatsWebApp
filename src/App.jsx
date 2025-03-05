@@ -16,7 +16,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/leader" element={<LeaderboardPage />} />
         </Routes>
-        other stuff
     </div>
   )
 }
