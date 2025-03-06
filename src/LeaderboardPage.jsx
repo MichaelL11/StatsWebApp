@@ -21,12 +21,13 @@ function LeaderboardPage() {
             sx={{
                 width: '100vw',
                 height: 'calc(100vh - 120px)', // Adjust for header height
-                backgroundColor: 'white',
+                backgroundColor: '#1b263b',
                 marginTop: '120px', // Push down to avoid header overlap
                 display: 'flex',
                 justifyContent: 'center', // Center leaderboards horizontally
                 alignItems: 'center', // Align the leaderboard at the top
                 gap: '5%', // Space between the two leaderboards
+                fontFamily: 'Courier New, monospace',  // Apply Courier New font
             }}
         >
             {/* Left Leaderboard */}
@@ -34,7 +35,7 @@ function LeaderboardPage() {
                 sx={{
                     width: '40%', // Adjust as needed
                     height: '70%', // Adjust as needed
-                    backgroundColor: 'grey',
+                    backgroundColor: '#634b66',
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'flex-start', // Keep text at the top
@@ -55,7 +56,7 @@ function LeaderboardPage() {
                     Indigo League
                 </Box>
                 <TeamBoard
-                    teamName="Marana"
+                    teamName="Marana Kabutops"
                     record="0-0"
                     image={Marana}
                 >
@@ -67,27 +68,27 @@ function LeaderboardPage() {
                 >
                 </TeamBoard>
                 <TeamBoard
-                    teamName="Bean"
+                    teamName="Beanboyblue Platypunks"
                     record="0-0"
                     image={Bean}
                 >
                 </TeamBoard>
                 <TeamBoard
-                    teamName="Marana"
+                    teamName="Athenian Absols"
                     record="0-0"
-                    image={Marana}
+                    image={Athens}
                 >
                 </TeamBoard>
                 <TeamBoard
-                    teamName="Marana"
+                    teamName="Tuscon Tauros"
                     record="0-0"
-                    image={Marana}
+                    image={Tauros}
                 >
                 </TeamBoard>
                 <TeamBoard
-                    teamName="Marana"
+                    teamName="Seattle Scizor"
                     record="0-0"
-                    image={Marana}
+                    image={Scizor}
                 >
                 </TeamBoard>
             </Box>
@@ -97,7 +98,7 @@ function LeaderboardPage() {
                 sx={{
                     width: '40%', // Adjust as needed
                     height: '70%', // Adjust as needed
-                    backgroundColor: 'grey',
+                    backgroundColor: '#faa307',
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'flex-start', // Keep text at the top
@@ -117,6 +118,42 @@ function LeaderboardPage() {
                 >
                     Advanced League
                 </Box>
+                <TeamBoard
+                    teamName="Staunton Sableye"
+                    record="0-0"
+                    image={Staunton}
+                >
+                </TeamBoard>
+                <TeamBoard
+                    teamName="Fiji Furrets"
+                    record="0-0"
+                    image={Fiji}
+                >
+                </TeamBoard>
+                <TeamBoard
+                    teamName="South Tucson Tyranitars"
+                    record="0-0"
+                    image={Poki}
+                >
+                </TeamBoard>
+                <TeamBoard
+                    teamName="Atlanta Altaria"
+                    record="0-0"
+                    image={Atlanta}
+                >
+                </TeamBoard>
+                <TeamBoard
+                    teamName="Saguaro Sudowoodo"
+                    record="0-0"
+                    image={Saguaro}
+                >
+                </TeamBoard>
+                <TeamBoard
+                    teamName="Eastern Shore Specters"
+                    record="0-0"
+                    image={Shore}
+                >
+                </TeamBoard>
 
             </Box>
         </Box>

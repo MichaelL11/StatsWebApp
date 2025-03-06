@@ -2,15 +2,15 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 
-function TeamBoard({ image, teamName, record }) {
+function TeamBoard({ image, teamName, record, color }) {
     return (
         <Box
             sx={{
-                width: '80%',
+                width: '90%',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'space-between',
-                backgroundColor: '#f0f0f0',
+                backgroundColor: color,
                 padding: '10px',
                 borderRadius: '8px',
                 boxShadow: '2px 2px 10px rgba(0,0,0,0.1)',
@@ -23,7 +23,7 @@ function TeamBoard({ image, teamName, record }) {
                     width: '20%', // Adjust size of the image box
                     height: '100%',
                     backgroundImage: `url(${image})`, // Use the passed image
-                    backgroundSize: 'cover',
+                    backgroundSize: 'contain',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
                 }}
@@ -31,14 +31,15 @@ function TeamBoard({ image, teamName, record }) {
 
             {/* Center Box (Text 1) */}
             <Box sx={{ flex: 1 }}>
-                <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
+                <Typography variant="h6" sx={{ fontWeight: 'bold',
+                    fontFamily: 'Courier New, monospace',  }}>
                     {teamName} {/* Display the title */}
                 </Typography>
             </Box>
 
             {/* Right Box (Text 2) */}
             <Box sx={{ width: '20%' }}>
-                <Typography variant="body1" sx={{ fontSize: '14px' }}>
+                <Typography variant="body1" sx={{ fontSize: '20px',fontFamily: 'Courier New, monospace', }}>
                     {record} {/* Display the description */}
                 </Typography>
             </Box>
