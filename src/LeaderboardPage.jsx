@@ -13,6 +13,8 @@ import Shore from './assets/PBA_ICONS/Shore.png';
 import Staunton from './assets/PBA_ICONS/Staunton.png';
 import Tauros from './assets/PBA_ICONS/Tauros.png';
 import UCF from './assets/PBA_ICONS/UCF.png';
+import IndigoImage from './assets/Indigo_League_Logo.png';
+import AdvanceImage from './assets/Advanced_League_Logo.png';
 
 function LeaderboardPage() {
     return (
@@ -50,19 +52,12 @@ function LeaderboardPage() {
                         display: 'flex',
                         justifyContent: 'center', // Center text horizontally
                         alignItems: 'center', // Center text vertically (in its box)
+                        backgroundImage: `url(${IndigoImage})`, // Use the passed image
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat',
                     }}
                 >
-                    <Typography
-                        variant="h4" // Choose an appropriate heading size
-                        sx={{
-                            fontWeight: 'bold', // Make the text bold
-                            fontSize: '2rem', // Adjust the font size to your liking
-                            color: '#1b263b', // Set the text color to match your design
-                            fontFamily: '"Courier New", monospace', // Apply Courier New font
-                        }}
-                    >
-                        Indigo League
-                    </Typography>
                 </Box>
                 <TeamBoard
                     teamName="Marana Kabutops"
@@ -117,19 +112,13 @@ function LeaderboardPage() {
                         display: 'flex',
                         justifyContent: 'center', // Center text horizontally
                         alignItems: 'center', // Center text vertically (in its box)
+                        backgroundImage: `url(${AdvanceImage})`, // Use the passed image
+                        backgroundSize: 'contain',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat',
                     }}
                 >
-                    <Typography
-                        variant="h4" // Choose an appropriate heading size
-                        sx={{
-                            fontWeight: 'bold', // Make the text bold
-                            fontSize: '2rem', // Adjust the font size to your liking
-                            color: '#1b263b', // Set the text color to match your design
-                            fontFamily: '"Courier New", monospace', // Apply Courier New font
-                        }}
-                    >
-                        Advanced League
-                    </Typography>
+
                 </Box>
                 <TeamBoard
                     teamName="Staunton Sableye"
