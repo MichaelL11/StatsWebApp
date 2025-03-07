@@ -1,6 +1,7 @@
 // InfoBox.js
 import React from 'react';
 import { Box, Typography } from '@mui/material';
+import {Link} from "react-router-dom";
 
 function TeamBoard({ image, teamName, record, color }) {
     return (
@@ -19,6 +20,8 @@ function TeamBoard({ image, teamName, record, color }) {
         >
             {/* Left Box (Image) */}
             <Box
+                component={Link}
+                to={`/team/${teamName.replace(/\s+/g, '')}`}
                 sx={{
                     width: '20%', // Adjust size of the image box
                     height: '100%',
@@ -26,6 +29,7 @@ function TeamBoard({ image, teamName, record, color }) {
                     backgroundSize: 'contain',
                     backgroundPosition: 'center',
                     backgroundRepeat: 'no-repeat',
+                    cursor: 'pointer',
                 }}
             />
 
