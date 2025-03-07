@@ -46,7 +46,7 @@ function Header() {
                 {/* Button Box */}
                 <Box sx={{display: 'flex',  // Make sure buttons are inside a flex container
                     gap: '10px',      // Add spacing between buttons
-                    mr: '50%' }}>
+                    mr: '65%' }}>
                     <Button
                         component={Link}
                         to="/leader"

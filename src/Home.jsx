@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@mui/material';
+import {Box, Typography} from '@mui/material';
 import myImage from './assets/PbaLogo2.png';
 
 function Home() {
@@ -36,8 +36,19 @@ function Home() {
             </Box>
 
             {/* Text Content */}
-            <Box sx={{ flex: 1, textAlign: 'center' }}>
-                <h2></h2>
+            <Box sx={{ display: 'flex',
+                flexDirection: 'column', // Stack text vertically
+                justifyContent: 'center',
+                alignItems: 'flex-start', // Align text to the left
+                paddingLeft: '10px',
+
+            }}>
+                <Typography variant="h4" fontWeight="bold" fontFamily='Courier New, monospace'>
+                    Welcome to the PBA
+                </Typography>
+                <Typography variant="h6" fontFamily='Courier New, monospace'>
+                    Season 7: Gen 3 OU
+                </Typography>
             </Box>
         </Box>
     );
