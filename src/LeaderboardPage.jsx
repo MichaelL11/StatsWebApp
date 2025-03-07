@@ -1,19 +1,18 @@
 import React from 'react';
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import TeamBoard from './TeamBoard.jsx';
-import Athens from './assets/PBA_ICONS/Athens.png'
-import Atlanta from './assets/PBA_ICONS/Atlanta.png'
-import Bean from './assets/PBA_ICONS/Bean.png'
-import Fiji from './assets/PBA_ICONS/Fiji.png'
-import Marana from './assets/PBA_ICONS/Marana.png'
-import Poki from './assets/PBA_ICONS/Poki.png'
-import Saguaro from './assets/PBA_ICONS/Saguaro.png'
-import Scizor from './assets/PBA_ICONS/Scizor.png'
-import Shore from './assets/PBA_ICONS/Shore.png'
-import Staunton from './assets/PBA_ICONS/Staunton.png'
-import Tauros from './assets/PBA_ICONS/Tauros.png'
-import UCF from './assets/PBA_ICONS/UCF.png'
-
+import Athens from './assets/PBA_ICONS/Athens.png';
+import Atlanta from './assets/PBA_ICONS/Atlanta.png';
+import Bean from './assets/PBA_ICONS/Bean.png';
+import Fiji from './assets/PBA_ICONS/Fiji.png';
+import Marana from './assets/PBA_ICONS/Marana.png';
+import Poki from './assets/PBA_ICONS/Poki.png';
+import Saguaro from './assets/PBA_ICONS/Saguaro.png';
+import Scizor from './assets/PBA_ICONS/Scizor.png';
+import Shore from './assets/PBA_ICONS/Shore.png';
+import Staunton from './assets/PBA_ICONS/Staunton.png';
+import Tauros from './assets/PBA_ICONS/Tauros.png';
+import UCF from './assets/PBA_ICONS/UCF.png';
 
 function LeaderboardPage() {
     return (
@@ -35,7 +34,7 @@ function LeaderboardPage() {
                 sx={{
                     width: '40%', // Adjust as needed
                     height: '70%', // Adjust as needed
-                    backgroundColor: '#634b66',
+                    backgroundColor: '#c1c6fc',
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'flex-start', // Keep text at the top
@@ -53,44 +52,48 @@ function LeaderboardPage() {
                         alignItems: 'center', // Center text vertically (in its box)
                     }}
                 >
-                    Indigo League
+                    <Typography
+                        variant="h4" // Choose an appropriate heading size
+                        sx={{
+                            fontWeight: 'bold', // Make the text bold
+                            fontSize: '2rem', // Adjust the font size to your liking
+                            color: '#1b263b', // Set the text color to match your design
+                            fontFamily: '"Courier New", monospace', // Apply Courier New font
+                        }}
+                    >
+                        Indigo League
+                    </Typography>
                 </Box>
                 <TeamBoard
                     teamName="Marana Kabutops"
                     record="0-0"
                     image={Marana}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="UCF"
                     record="0-0"
                     image={UCF}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Beanboyblue Platypunks"
                     record="0-0"
                     image={Bean}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Athenian Absols"
                     record="0-0"
                     image={Athens}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Tuscon Tauros"
                     record="0-0"
                     image={Tauros}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Seattle Scizor"
                     record="0-0"
                     image={Scizor}
-                >
-                </TeamBoard>
+                />
             </Box>
 
             {/* Right Leaderboard */}
@@ -116,45 +119,48 @@ function LeaderboardPage() {
                         alignItems: 'center', // Center text vertically (in its box)
                     }}
                 >
-                    Advanced League
+                    <Typography
+                        variant="h4" // Choose an appropriate heading size
+                        sx={{
+                            fontWeight: 'bold', // Make the text bold
+                            fontSize: '2rem', // Adjust the font size to your liking
+                            color: '#1b263b', // Set the text color to match your design
+                            fontFamily: '"Courier New", monospace', // Apply Courier New font
+                        }}
+                    >
+                        Advanced League
+                    </Typography>
                 </Box>
                 <TeamBoard
                     teamName="Staunton Sableye"
                     record="0-0"
                     image={Staunton}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Fiji Furrets"
                     record="0-0"
                     image={Fiji}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="South Tucson Tyranitars"
                     record="0-0"
                     image={Poki}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Atlanta Altaria"
                     record="0-0"
                     image={Atlanta}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Saguaro Sudowoodo"
                     record="0-0"
                     image={Saguaro}
-                >
-                </TeamBoard>
+                />
                 <TeamBoard
                     teamName="Eastern Shore Specters"
                     record="0-0"
                     image={Shore}
-                >
-                </TeamBoard>
-
+                />
             </Box>
         </Box>
     );

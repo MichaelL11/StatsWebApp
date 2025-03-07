@@ -13,7 +13,7 @@ function Header() {
                 height="120px" // Header height
                 width="100%"
                 padding="0 20px"
-                sx={{ backgroundColor: '#6a00f4', color: 'white' }}
+                sx={{ backgroundColor: '#6c85bd', color: 'white' }}
             >
                 {/* Left Box with Background Image */}
                 <Box
@@ -28,7 +28,7 @@ function Header() {
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat', // Prevent repetition of the image
                         cursor: 'pointer',
-                        backgroundColor: '#6a00f4', // Set the background color to match the header
+                        backgroundColor: '#6c85bd', // Set the background color to match the header
                     }}
                 />
 
@@ -40,7 +40,7 @@ function Header() {
                     height="100%" // Full height of the header
                     flex="1"
                 >
-                    <h2>Welcome to the PBA</h2>
+                    <h2></h2>
                 </Box>
 
                 {/* Button Box */}
@@ -55,7 +55,7 @@ function Header() {
                         sx={{
                             outline: 'none', // Remove focus outline
                             border: 'none', // Remove border
-                            backgroundColor: '#f20089',
+                            backgroundColor: '#f2cdd5',
                             color: 'black',
                             fontFamily: 'Comic Sans MS, cursive, sans-serif',
                         }}
@@ -70,7 +70,7 @@ function Header() {
                         sx={{
                             outline: 'none', // Remove focus outline
                             border: 'none', // Remove border
-                            backgroundColor: '#f20089',
+                            backgroundColor: '#f2cdd5',
                             color: 'black',
                             fontFamily: 'Comic Sans MS, cursive, sans-serif',
                         }}
@@ -85,7 +85,7 @@ function Header() {
                         sx={{
                             outline: 'none', // Remove focus outline
                             border: 'none', // Remove border
-                            backgroundColor: '#f20089',
+                            backgroundColor: '#f2cdd5',
                             color: 'black',
                             fontFamily: 'Comic Sans MS, cursive, sans-serif',
                         }}
