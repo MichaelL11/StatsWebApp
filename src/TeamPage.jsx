@@ -1,8 +1,9 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import ShowPokemon from './ShowPokemon.jsx';
+import { useParams } from 'react-router-dom';
 
-function MaranaKabutopsPage() {
+function TeamPage() {
     const pokemon = [
         { name: 'Skarmory', color: '#000080' },
         { name: 'Tyranitar', color: '#000080' },
@@ -13,6 +14,9 @@ function MaranaKabutopsPage() {
         { name: 'Scizor', color: '#000080' },
         { name: 'Swampert', color: '#000080' },
     ];
+
+    const { teamName } = useParams(); // Get teamName from the URL
+    const teamColor = "#000080"; // You can map colors based on teamName if needed
 
     return (
         <Box
@@ -41,7 +45,7 @@ function MaranaKabutopsPage() {
                     fontWeight: 'bold',
                 }}
             >
-                Marana Kabutops
+                {teamName}
             </Box>
 
             {/* Pokémon Grid Container Box (Wide & Less Tall) */}
@@ -66,4 +70,4 @@ function MaranaKabutopsPage() {
     );
 }
 
-export default MaranaKabutopsPage;
+export default TeamPage;
