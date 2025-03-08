@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Typography} from '@mui/material';
-import myImage from './assets/PbaLogo2.png';
+import myImage from '../assets/PbaLogo2.png';
 
 function Home() {
     return (

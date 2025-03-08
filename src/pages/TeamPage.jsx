@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import ShowPokemon from './ShowPokemon.jsx';
+import ShowPokemon from './components/ShowPokemon.jsx';
 import { useParams } from 'react-router-dom';
 
 function TeamPage() {

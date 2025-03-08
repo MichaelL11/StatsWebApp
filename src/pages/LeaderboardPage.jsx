@@ -1,20 +1,20 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import TeamBoard from './TeamBoard.jsx';
-import Athens from './assets/PBA_ICONS/Athens.png';
-import Atlanta from './assets/PBA_ICONS/Atlanta.png';
-import Bean from './assets/PBA_ICONS/Bean.png';
-import Fiji from './assets/PBA_ICONS/Fiji.png';
-import Marana from './assets/PBA_ICONS/Marana.png';
-import Poki from './assets/PBA_ICONS/Poki.png';
-import Saguaro from './assets/PBA_ICONS/Saguaro.png';
-import Scizor from './assets/PBA_ICONS/Scizor.png';
-import Shore from './assets/PBA_ICONS/Shore.png';
-import Staunton from './assets/PBA_ICONS/Staunton.png';
-import Tauros from './assets/PBA_ICONS/Tauros.png';
-import UCF from './assets/PBA_ICONS/UCF.png';
-import IndigoImage from './assets/Indigo_League_Logo.png';
-import AdvanceImage from './assets/Advanced_League_Logo.png';
+import TeamBoard from './components/TeamBoard.jsx';
+import Athens from '../assets/PBA_ICONS/Athens.png';
+import Atlanta from '../assets/PBA_ICONS/Atlanta.png';
+import Bean from '../assets/PBA_ICONS/Bean.png';
+import Fiji from '../assets/PBA_ICONS/Fiji.png';
+import Marana from '../assets/PBA_ICONS/Marana.png';
+import Poki from '../assets/PBA_ICONS/Poki.png';
+import Saguaro from '../assets/PBA_ICONS/Saguaro.png';
+import Scizor from '../assets/PBA_ICONS/Scizor.png';
+import Shore from '../assets/PBA_ICONS/Shore.png';
+import Staunton from '../assets/PBA_ICONS/Staunton.png';
+import Tauros from '../assets/PBA_ICONS/Tauros.png';
+import UCF from '../assets/PBA_ICONS/UCF.png';
+import IndigoImage from '../assets/Indigo_League_Logo.png';
+import AdvanceImage from '../assets/Advanced_League_Logo.png';
 
 function LeaderboardPage() {
     return (
