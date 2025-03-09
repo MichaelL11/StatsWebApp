@@ -57,10 +57,10 @@ function ShowPokemon({ name, color }) {
 
                 {/* Stats */}
                 <Typography variant="body1">
-                    <strong>KO's:</strong> 53
+                    <strong>KO's:</strong> 0
                 </Typography>
                 <Typography variant="body1">
-                    <strong>Deaths:</strong> 40
+                    <strong>Deaths:</strong> 0
                 </Typography>
             </Box>
         </Box>

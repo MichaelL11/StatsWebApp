@@ -128,7 +128,7 @@ function LeaderboardPage() {
                     image={Fiji}
                 />
                 <TeamBoard
-                    teamName="South Tucson Tyranitars"
+                    teamName="South Tucson Typhlosion"
                     record="0-0"
                     image={Poki}
                 />
