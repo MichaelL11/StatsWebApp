@@ -68,29 +68,29 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Beanboyblue Platypunks</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >UCF</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Athenian Absols</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Tuscon Tauros</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Tuscon Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">South Tucson Tyranitars</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">South Tucson Tyranitars</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
+                <Typography fontWeight="bold" variant="h6" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
+                <Typography fontWeight="bold" variant="h6" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography fontWeight="bold" variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Saguaro Sudowoodo</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
+                <Typography fontWeight="bold" variant="h6" fontFamily="Courier New, monospace" >Saguaro Sudowoodo</Typography>
+                <Typography fontWeight="bold" variant="h6" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography fontWeight="bold" variant="h6" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
 
             </Box>
 
@@ -111,33 +111,33 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Fiji Furrets</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Fiji Furrets</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >UCF</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">South Tucson Tyranitars</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">South Tucson Tyranitars</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Tuscon Tauros</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Tuscon Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Beanboyblue Platypunks</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Marana Kabutops</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Seattle Scizors</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Seattle Scizors</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Saguaro Sudowoodo</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Saguaro Sudowoodo</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Athenian Absols</Typography>
 
             </Box>
 
@@ -158,29 +158,29 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >UCF</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Beanboyblue Platypunks</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Athenian Absols</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Tuscon Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Tuscon Tauros</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">South Tucson Tyranitars</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">South Tucson Tyranitars</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Saguaro Sudowoodo</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Saguaro Sudowoodo</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
 
 
             </Box>
@@ -202,29 +202,29 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >UCF</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Athenian Absols</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Staunton Sableye</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
 
 
             </Box>
@@ -246,29 +246,29 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Staunton Sableye</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Staunton Sableye</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >UCF</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Fiji Furrets</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Fiji Furrets</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">South Tucson Typhlosion</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">South Tucson Typhlosion</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Tucson Tauros</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Tucson Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Seattle Scizor</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Seattle Scizor</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Athenian Absols</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
 
 
             </Box>
@@ -291,29 +291,29 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Athenian Absols</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >UCF</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Seattle Scizor</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Eastern Shore Specters</Typography>
 
 
             </Box>
@@ -336,29 +336,29 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">UCF</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Seattle Scizor</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Seattle Scizor</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Athenian Absols</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Eastern Shore Specters</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Eastern Shore Specters</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Atlanta Altaria</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Staunton Sableye</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Fiji Furrets</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Staunton Sableye</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >South Tucson Typhlosion</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
 
 
             </Box>
@@ -381,29 +381,29 @@ function SchedulePage() {
                 }}
 
             >
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">South Tucson Typhlosion</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Marana Kabutops</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">South Tucson Typhlosion</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Seattle Scizor</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Seattle Scizor</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Saguaro Sudowoodo</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Fiji Furretss</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Beanboyblue Platypunks</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Fiji Furretss</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Eastern Shore Specters</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Athenian Absols</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Eastern Shore Specters</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Athenian Absols</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >UCF</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Staunton Sableye</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >UCF</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Staunton Sableye</Typography>
 
-                <Typography variant="h6" fontFamily="Courier New, monospace" >Atlanta Altaria</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">vs</Typography>
-                <Typography variant="h6" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace" >Atlanta Altaria</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">vs</Typography>
+                <Typography variant="h6" fontWeight="bold" fontFamily="Courier New, monospace">Tucson Tauros</Typography>
 
 
             </Box>

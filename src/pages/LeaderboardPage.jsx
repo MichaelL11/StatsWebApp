@@ -34,8 +34,8 @@ function LeaderboardPage() {
             {/* Left Leaderboard */}
             <Box
                 sx={{
-                    width: '40%', // Adjust as needed
-                    height: '70%', // Adjust as needed
+                    width: '40vw', // Relative width based on viewport width
+                    height: '70vh', // Relative height based on viewport height
                     backgroundColor: '#c1c6fc',
                     display: 'flex',
                     flexDirection: 'column',
@@ -57,8 +57,7 @@ function LeaderboardPage() {
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
                     }}
-                >
-                </Box>
+                />
                 <TeamBoard
                     teamName="Marana Kabutops"
                     record="0-0"
@@ -94,8 +93,8 @@ function LeaderboardPage() {
             {/* Right Leaderboard */}
             <Box
                 sx={{
-                    width: '40%', // Adjust as needed
-                    height: '70%', // Adjust as needed
+                    width: '40vw', // Relative width based on viewport width
+                    height: '70vh', // Relative height based on viewport height
                     backgroundColor: '#faa307',
                     display: 'flex',
                     flexDirection: 'column',
@@ -117,9 +116,7 @@ function LeaderboardPage() {
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
                     }}
-                >
-
-                </Box>
+                />
                 <TeamBoard
                     teamName="Staunton Sableye"
                     record="0-0"
