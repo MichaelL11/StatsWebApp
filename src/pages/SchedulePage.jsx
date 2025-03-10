@@ -14,6 +14,7 @@ function SchedulePage() {
             alignItems: 'center', // Align the leaderboard at the top
             gap: '5%', // Space between the two leaderboards
             fontFamily: 'Courier New, monospace',  // Apply Courier New font
+            color: 'white',
         }}
     >
         <Box

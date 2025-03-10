@@ -16,6 +16,7 @@ function ShowPokemon({ name, color }) {
                 boxShadow: '2px 2px 10px rgba(0,0,0,0.2)',
                 margin: '10px',
                 padding: '10px',
+                color: 'white',
             }}
         >
             {/* Image on the Left */}
